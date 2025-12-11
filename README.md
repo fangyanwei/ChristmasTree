@@ -74,6 +74,14 @@ npx serve .
 5. 在 **Branch** 选项中，选择 `main` (或 master) 分支，文件夹选择 `/ (root)`，点击 **Save**。
 6. 等待几分钟，顶部会自动生成在线访问链接。
 
+### ⚡ 如何部署到 Vercel (推荐，速度更快)
+
+1. 访问 [Vercel](https://vercel.com) 并使用 GitHub 账号登录。
+2. 点击 **Add New...** -> **Project**。
+3. 在 Import Git Repository 列表中，找到并点击您的 `christmas-tree` 仓库旁的 **Import**。
+4. 在 Configure Project 页面，通常保持默认设置即可，直接点击 **Deploy**。
+5. 等待几十秒，部署完成后会自动跳转到生成好的 `xxx.vercel.app` 域名。
+
 ## 📁 项目结构
 ```
 Test/
